@@ -22,4 +22,27 @@ To use the Data Preprocessor Tool, follow these steps:
    ```bash
    git clone https://github.com/faizalimam990/data-preprocessor-tool.git
    cd data-preprocessor-tool
-2.
+## Usage
+
+1. **Launch the Tool**: 
+   - Run the `data_preprocessor.py` script to open the Data Preprocessor GUI.
+
+2. **Select CSV File**: 
+   - Click the **"Select CSV and Process"** button to choose your input CSV file.
+
+3. **Process the Data**: 
+   - The tool will automatically handle the following preprocessing tasks:
+     - Fill missing values.
+     - Encode categorical variables.
+     - Normalize numerical features.
+     - Detect and remove outliers.
+
+4. **Save Cleaned Data**: 
+   - Provide a file path to save the processed data to a new CSV file.
+
+5. **View Results**: 
+   - The results of the preprocessing steps will be displayed in the GUI. This includes:
+     - Information about missing values.
+     - List of categorical columns.
+     - List of numerical columns.
+     - Details about detected outliers.
